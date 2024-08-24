@@ -1,0 +1,17 @@
+# Django Backend
+/DjangoProject/
+/.django/
+*.db
+env
+
+# General
+.env
+env/
+/.idea/
+/.vscode/
+*.pyc
+*.pyo
+*.log
+/Dockerfile
+*.war
+*.jar
