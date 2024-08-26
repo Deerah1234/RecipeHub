@@ -1,6 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./components";
-import { Feed, Home, PostRecipe, RecipeDetails, Recipes } from "./pages";
+import {
+    Feed,
+    Home,
+    NotFound,
+    PostRecipe,
+    RecipeDetails,
+    Recipes,
+} from "./pages";
 
 function App() {
     return (
@@ -18,6 +25,7 @@ function App() {
                         element={<RecipeDetails />}
                     />
                 </Route>
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>
     );

@@ -6,10 +6,9 @@ class Recipe(models.Model):
     summary = models.TextField()
     ready_in_minutes = models.IntegerField()
     servings = models.IntegerField()
-    diets = models.CharField(max_length=255)
+    diets = models.JSONField()
     ingredients = models.TextField()
-    image_url = models.URLField()
-    image = models.ImageField(upload_to='images/')
+    image = models.URLField(null=True, blank=True)
 
     def __str__(self):
         return self.title

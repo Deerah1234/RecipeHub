@@ -26,7 +26,7 @@ const Hero = () => {
                 <button type="button" className="w-full sm:w-auto">
                     <a
                         href="/recipes"
-                        className="flex items-center justify-center px-8 py-3 text-sm text-center text-white rounded-full font-inter button"
+                        className="flex items-center justify-center px-8 py-3 text-sm text-center text-white rounded-lg font-inter button"
                     >
                         Explore Recipes{" "}
                         <ArrowRightIcon className="inline-block w-5 h-5 ml-1" />

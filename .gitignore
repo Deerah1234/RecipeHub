@@ -1,5 +1,3 @@
-# Django Backend
-/DjangoProject/
 /.django/
 *.db
 env

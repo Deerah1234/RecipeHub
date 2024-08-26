@@ -5,7 +5,8 @@ const tabs = [
     { name: "All", route: "all" },
     { name: "Vegan", route: "vegan" },
     { name: "Breakfast", route: "breakfast" },
-    // Add more tabs as needed
+    { name: "GlutenFree", route: "glutenFree" },
+    { name: "DairyFree", route: "dairyFree" },
 ];
 
 const RecipeTabs = ({ activeTab }) => {

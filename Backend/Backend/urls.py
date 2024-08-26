@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('recipes.urls')),  # or whatever your app's URL configuration is
     # other url patterns...
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] 
+# + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
